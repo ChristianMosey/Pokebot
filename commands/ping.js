@@ -6,7 +6,6 @@ module.exports = {
 		.setName('ping')
 		.setDescription('Replies with Pong!'),
 	async execute(interaction, client) {
-		getQueue().play();
 		await interaction.reply("PONG!");
 	},
 };
